@@ -1,0 +1,58 @@
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  color: navy;
+  margin-top: 10px;
+}
+.page_header h2 {
+  font-size: 2rem;
+}
+.header_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_link a {
+  text-decoration: none;
+}
+.header_link ul {
+  display: flex;
+  align-items: center;
+}
+.header_link li {
+
+  list-style: none;
+  padding-left: 75px;
+  font-size: 1.0rem;
+  padding: auto 0;
+}
+main{
+  position: relative;
+}
+.message_left {
+  width: 75%;
+  margin-right: auto;
+  padding-top: 35%;
+}
+.message {
+  font-size: 5rem;
+  vertical-align: bottom;
+}
+.space {
+  background-color: navy;
+  height: 50%;
+  height: 200px;
+}
+img {
+  width: 50%;
+  position: absolute;
+  top:200px;
+  right:0;
+  z-index: 10;
+}
